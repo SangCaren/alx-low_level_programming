@@ -1,23 +1,23 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
- * Return: Always 0
+ * main - prints _putchar
+ *
+ * Description: prints _putchar
+ *
+ * Return: 0 (Success)
  */
 
 int main(void)
-
 {
+	char text[9] = "_putchar";
+	int i = 0;
 
-         putchar('_');
-	 putchar('p');
-	 putchar('u');
-	 putchar('t');
-	 putchar('c');
-	 putchar('h');
-	 putchar('a');
-	 putchar('r');
+	for (i = 0; i < 8; i++)
+	{
+		 putchar(text[i]);
+	}
 	 putchar('\n');
-	return (0);
 
+	return (0);
 }
